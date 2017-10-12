@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="md/logo.jpg">
+</p>
+
 # Blood Donation App
 
 This app allows users to help meet the constant need for blood. 
@@ -9,18 +13,18 @@ This app allows users to help meet the constant need for blood.
 - [Problem](#problem)
 - [User Stories](#user-stories)
 - [Wireframe](#wireframe)
-- [Entity Relationship Diagram](#erd)
-- [Tools and Methodologies](#tools--and-methodologies)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
 
 
 ### Team
 
-| Coder | Portfolio |
-| --- | --- |
-| [ncleshyne](https://github.com/ncleshyne) | ncleshyne.github.io |
-| [silveredbullet](https://github.com/silveredbullet) | silveredbullet.github.io |
-| [grailwilly](https://github.com/grailwilly) | silveredbullet.github.io |
+| Contributor | Github | Portfolio |
+| --- | --- | --- |
+| Nicole Shayne Elim | [ncleshyne](https://github.com/ncleshyne) | [ncleshyne.github.io](https://ncleshyne.github.io/) |
+| Dan Raymond See | [silveredbullet](https://github.com/silveredbullet) | [silveredbullet.github.io](https://silveredbullet.github.io/) |
+| Grail Joy Willy| [grailwilly](https://github.com/grailwilly) | [grailwilly.github.io](https://grailwilly.github.io/) |
 
 ### Purpose
  The app aims to help make it easier to request blood online and notify users who whould voluntary donate blood.
@@ -28,12 +32,12 @@ This app allows users to help meet the constant need for blood.
 ### Problem
 
   ["Michelle Maquiling, officer-in-charge of the PRC-Negros Oriental Chapter, said there is a dire need for blood donors    because there are patients who need blood every day, but there is a shortage of supply even if the DOH has programs to strengthen blood donation in the province."](http://www.philstar.com/region/2017/03/28/1685367/blood-donors-dearth-due-fear-needles) <br/><br/>
-  ["For a first class hospital like St. Luke’s to suffer from shortage of blood supply means public hospitals are more blood-challenged nationwide from source analysed"](http://gulfnews.com/news/asia/philippines/blood-shortage-affecting-hospitals-in-philippines-1.1657914)<br/><br/>
+  ["For a first class hospital like St. Luke’s to suffer from shortage of blood supply means public hospitals are more blood-challenged nationwide from source analysed"](http://gulfnews.com/news/asia/philippines/blood-shortage-affecting-hospitals-in-philippines-1.1657914) <br/><br/> 
   ["Blood needed: With PH blood supply below target, patients seek help online.
-With the Philippines' blood supply still falling short of the target, patients in need of blood turn to online networks to look for kind-hearted strangers willing to donate"](https://www.rappler.com/newsbreak/in-depth/180446-blood-donation-online-networks-philippine-red-cross)
+  With the Philippines' blood supply still falling short of the target, patients in need of blood turn to online networks to look for kind-hearted strangers willing to donate"](https://www.rappler.com/newsbreak/in-depth/180446-blood-donation-online-networks-philippine-red-cross)
   <br/><br/>
-  ![Alt-text](http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg)
- 
+
+![Alt-text](http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg)
     
 ### User Stories
 
@@ -42,14 +46,15 @@ With the Philippines' blood supply still falling short of the target, patients i
 
 ### Wireframe
 
+![wireframe](md/figma.png)
 
-### ERD
+### Entity Relationship Diagram
 ![erd](md/erd.png)
 
 ### Tools and Methodologies
 I. Building the App
 
-- [Github]()
+- [Github](https://github.com/grailwilly/bloodapp)
 - [Cloud9](https://c9.io/)
 - [Trello](https://trello.com/b/8fiwXjdl/blood-donation-app)
 - [Figma](https://www.figma.com/file/VX5FDJ15HLKBLVtvVeZJ6z1w/Blood-Donation-App)
@@ -66,9 +71,36 @@ II. Communication
 <img src="md/component.jpg" width="100%" height="auto">
 
 
-
-
-
 ### Usage
 
+Clone or Download Repo
+
+```
+https://github.com/grailwilly/bloodapp.git
+```
+<br/>
+
+install dependencies
+
+```
+$ npm install
+```
+
+<br/>
+
+run server
+
+```
+$ npm start
+```
+
+Visit http://localhost:3000/
+
+### Demo
+
+Deployed in heroku. Visit 
+
 ### Future Improvements
+
+- Add map for the list of requests
+- Registration for donors (and requesters)
