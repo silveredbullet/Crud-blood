@@ -98,10 +98,6 @@ $ npm start
 
 Visit http://localhost:3000/
 
-### Demo
-
-Deployed in heroku. Visit 
-
 ### Future Improvements
 
 - Add map for the list of requests
